@@ -71,3 +71,7 @@ a:hover { color: #634C52; }
     line-height: 1.4em;
     text-transform: none;
 }
+
+footer[role="contentinfo"] { text-align: center; }
+footer[role="contentinfo"] a { color: #F87A52; }
+footer[role="contentinfo"] a:hover { color: #634C52; }
