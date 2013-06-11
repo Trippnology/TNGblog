@@ -72,6 +72,9 @@ a:hover { color: #634C52; }
     text-transform: none;
 }
 
-footer[role="contentinfo"] { text-align: center; }
+footer[role="contentinfo"] {
+	text-align: center;
+	font-size: 1em;
+}
 footer[role="contentinfo"] a { color: #F87A52; }
 footer[role="contentinfo"] a:hover { color: #634C52; }
