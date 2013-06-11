@@ -46,11 +46,24 @@ h1, h2, h3, h4, h5, h6 {
 	color: #332532;
 }
 
+a {
+	color: #F87A52;
+	text-decoration: none;
+}
+a:hover { color: #634C52; }
+
 .site-header h1 { font-size: 3em; }
+.site-header h1 a {	color: #F87A52; }
+.site-header h1 a:hover { color: #634C52; }
 .site-header h2 { font-size: 1.4em; }
 .entry-header .entry-title { font-size: 1.5em; }
 
 .widget-area .widget h3 { margin-bottom: 0; }
+.widget-area .widget a {
+	color: #F87A52;
+	text-decoration: none;
+}
+.widget-area .widget a:hover { color: #634C52; }
 .archive-title, .page-title, .widget-title, .entry-content th, .comment-content th {
     font-size: 1.4em;
     line-height: 1.4em;
