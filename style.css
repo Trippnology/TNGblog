@@ -4,15 +4,55 @@ Theme URI:      http://blog.trippnology.com
 Description:    Child theme for the Trippnology blog
 Author:         Trippnology
 Author URI:     http://trippnology.com
-Template:       twentytwelve                             
+Template:       twentytwelve
 Version:        0.1.0
 */
 
 @import url("../twentytwelve/style.css");
 
+@font-face {
+	font-family: 'MetaPro-Bold';
+	src: url('fonts/metapro-bold.eot');
+	src: url('fonts/metapro-bold.eot?#iefix') format('embedded-opentype'),
+		 url('fonts/metapro-bold.woff') format('woff'),
+		 url('fonts/metapro-bold.ttf') format('truetype'),
+		 url('fonts/metapro-bold.svg#metapro-bold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'museo_sans_300regular';
+	src: url('../fonts/museosans-300-webfont.eot');
+	src: url('../fonts/museosans-300-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/museosans-300-webfont.woff') format('woff'),
+		 url('../fonts/museosans-300-webfont.ttf') format('truetype'),
+		 url('../fonts/museosans-300-webfont.svg#museo_sans_300regular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
 body {
+	font-family: museo_sans_300regular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 16px;
 	background-image: url("img/lil_fiber.png");
 	background-repeat: repeat;
 	background-size: auto auto;
 	background-attachment: fixed;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: MetaPro-Bold, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	color: #332532;
+}
+
+.site-header h1 { font-size: 3em; }
+.site-header h2 { font-size: 1.4em; }
+.entry-header .entry-title { font-size: 1.5em; }
+
+.widget-area .widget h3 { margin-bottom: 0; }
+.archive-title, .page-title, .widget-title, .entry-content th, .comment-content th {
+    font-size: 1.4em;
+    line-height: 1.4em;
+    text-transform: none;
 }
