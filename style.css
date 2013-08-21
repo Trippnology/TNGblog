@@ -76,6 +76,17 @@ a:hover { color: #634C52; }
     color: #634C52;
 }
 
+img[itemprop="logo"] {
+	width: 180px;
+	height: 180px;
+	padding: 0.4em;
+	border: 1px solid #634C52;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	background-color: #FFFFFF;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+	border-radius: 0.8em;
+}
+
 footer[role="contentinfo"] {
 	text-align: center;
 	font-size: 1em;
