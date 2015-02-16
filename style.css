@@ -12,21 +12,21 @@ Version:        0.1.0
 
 @font-face {
 	font-family: 'MetaPro-Bold';
-	src: url('fonts/metapro-bold.eot');
-	src: url('fonts/metapro-bold.eot?#iefix') format('embedded-opentype'),
-		 url('fonts/metapro-bold.svg#metapro-bold') format('svg'),
-		 url('fonts/metapro-bold.woff') format('woff'),
-		 url('fonts/metapro-bold.ttf') format('truetype');
+	src: url('http://cdn.trippnology.net/fonts/metapro-bold.eot');
+	src: url('http://cdn.trippnology.net/fonts/metapro-bold.eot?#iefix') format('embedded-opentype'),
+		 url('http://cdn.trippnology.net/fonts/metapro-bold.svg#metapro-bold') format('svg'),
+		 url('http://cdn.trippnology.net/fonts/metapro-bold.woff') format('woff'),
+		 url('http://cdn.trippnology.net/fonts/metapro-bold.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
 @font-face {
 	font-family: 'museo_sans_300regular';
-	src: url('fonts/museosans-300-webfont.eot');
-	src: url('fonts/museosans-300-webfont.eot?#iefix') format('embedded-opentype'),
-		 url('fonts/museosans-300-webfont.svg#museo_sans_300regular') format('svg'),
-		 url('fonts/museosans-300-webfont.woff') format('woff'),
-		 url('fonts/museosans-300-webfont.ttf') format('truetype');
+	src: url('http://cdn.trippnology.net/fonts/museosans-300-webfont.eot');
+	src: url('http://cdn.trippnology.net/fonts/museosans-300-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('http://cdn.trippnology.net/fonts/museosans-300-webfont.svg#museo_sans_300regular') format('svg'),
+		 url('http://cdn.trippnology.net/fonts/museosans-300-webfont.woff') format('woff'),
+		 url('http://cdn.trippnology.net/fonts/museosans-300-webfont.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -34,7 +34,7 @@ Version:        0.1.0
 body {
 	font-family: museo_sans_300regular, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 16px;
-	background-image: url("img/lil_fiber.png");
+	background-image: url("http://cdn.trippnology.net/img/lil_fiber.png");
 	background-repeat: repeat;
 	background-size: auto auto;
 	background-attachment: fixed;
